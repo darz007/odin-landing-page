@@ -1,0 +1,154 @@
+.container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.dark-blue {
+    background-color: #1F2937;
+}
+
+.container.grey {
+    background-color: lightgray;
+}
+
+.navigation,
+.header-content,
+.body,
+.quote,
+.cta-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    max-width: 800px;
+}
+
+.navigation {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-content {
+    gap: 40px;
+    padding: 50px 0;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    margin: 32px;
+}
+
+.block h3,
+.block p,{
+    margin: 8px 0;
+}
+
+.cta-left h3,
+.cta-left p {
+    margin: 2px 0;
+}
+
+.header-image, 
+.header-text {
+    width: 50%;
+}
+
+.header-text button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 26px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.body {
+    justify-content: space-evenly;
+    gap: 32px;
+    text-align: center;
+}
+
+figcaption {
+    text-align: right;
+    margin-right: 60px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 100%;
+    justify-content: space-around;
+    margin: 50px;
+    border-radius: 24px;
+    color: #F9FAF8;
+    padding: 16px 0;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.cta-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 16px;
+}
+
+.cta-wrapper {
+    margin: 50px;
+}
+
+.cta-button button {
+    background-color: #3882F6;
+    padding: 8px 26px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.footer {
+    color: #F9FAF8;
+    margin: 10px 0;
+}
